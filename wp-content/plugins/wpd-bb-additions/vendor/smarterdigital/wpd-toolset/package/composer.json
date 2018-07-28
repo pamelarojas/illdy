@@ -1,0 +1,21 @@
+{
+  "name": "smarterdigital/wpd-toolset/package",
+  "description": "Package",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Doug Belchamber",
+      "email": "doug@smarter.uk.com"
+    },
+    {
+      "name": "Prajwal Shrestha",
+      "email": "prajwalstha123@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "WPD\\Toolset\\": "src"
+    }
+  }
+}

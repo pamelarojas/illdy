@@ -1,0 +1,24 @@
+{
+  "name": "smarterdigital/wpd-toolset/utilities/collection",
+  "description": "Collection Utilities Helpers",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Doug Belchamber",
+      "email": "doug@smarter.uk.com"
+    },
+    {
+      "name": "Prajwal Shrestha",
+      "email": "prajwalstha123@gmail.com"
+    }
+  ],
+  "require": {
+    "adbario/php-dot-notation": "*",
+    "smarterdigital/wpd-toolset/package": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPD\\Toolset\\Utilities\\": "src"
+    }
+  }
+}

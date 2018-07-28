@@ -1,0 +1,24 @@
+{
+  "name": "smarterdigital/wpd-toolset/features/white-label",
+  "description": "White Label WPD Plugins",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Doug Belchamber",
+      "email": "doug@smarter.uk.com"
+    },
+    {
+      "name": "Prajwal Shrestha",
+      "email": "prajwalstha123@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev-master",
+  "require": {
+    "smarterdigital/wpd-toolset/traits/plugin-property-getters": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPD\\Toolset\\Features\\": "src"
+    }
+  }
+}

@@ -1,0 +1,322 @@
+[
+    {
+        "name": "smarterdigital/wpd-toolset/utilities/admin-notice",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-admin-notice-utilities.git",
+            "reference": "9fa44dd134f687f2fd85b57cd812d48160d03938"
+        },
+        "time": "2018-04-26T13:29:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "wpd-toolset-admin-notice-utilities.php"
+            ],
+            "psr-4": {
+                "WPD\\Toolset\\Utilities\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Admin Notices"
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/package",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-package.git",
+            "reference": "2b07b41f1107930f4151027261d662c39e115af4"
+        },
+        "time": "2018-04-26T13:30:05+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Package"
+    },
+    {
+        "name": "mexitek/phpcolors",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mexitek/phpColors.git",
+            "reference": "edf134221a1f2b6b9a15c0cfadd65dc1add8bad2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mexitek/phpColors/zipball/edf134221a1f2b6b9a15c0cfadd65dc1add8bad2",
+            "reference": "edf134221a1f2b6b9a15c0cfadd65dc1add8bad2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "nette/tester": "~1.6"
+        },
+        "time": "2018-03-26T06:13:55+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Arlo Carreon",
+                "homepage": "http://arlocarreon.com",
+                "role": "creator"
+            }
+        ],
+        "description": "A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.",
+        "homepage": "http://mexitek.github.com/phpColors/",
+        "keywords": [
+            "color",
+            "css",
+            "design",
+            "frontend",
+            "ui"
+        ]
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/utilities/color",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-color-utilities.git",
+            "reference": "6f145ff5c2d60361967cfe91609206663dfc1c38"
+        },
+        "require": {
+            "mexitek/phpcolors": "dev-master",
+            "smarterdigital/wpd-toolset/package": "dev-master"
+        },
+        "time": "2018-04-21T12:13:19+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\Utilities\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Color Utilities"
+    },
+    {
+        "name": "adbario/php-dot-notation",
+        "version": "2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/adbario/php-dot-notation.git",
+            "reference": "90c0b7d5e4103326d9d80f5a043d9cb55b24fc70"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/adbario/php-dot-notation/zipball/90c0b7d5e4103326d9d80f5a043d9cb55b24fc70",
+            "reference": "90c0b7d5e4103326d9d80f5a043d9cb55b24fc70",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0|^5.0|^6.0",
+            "squizlabs/php_codesniffer": "^3.0"
+        },
+        "time": "2017-09-22T08:44:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/helpers.php"
+            ],
+            "psr-4": {
+                "Adbar\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Riku Särkinen",
+                "email": "riku@adbar.io"
+            }
+        ],
+        "description": "PHP dot notation access to arrays",
+        "homepage": "https://github.com/adbario/php-dot-notation",
+        "keywords": [
+            "ArrayAccess",
+            "dotnotation"
+        ]
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/utilities/collection",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-collection-utilities.git",
+            "reference": "984f2cd8aaac3966e2f87998a8ff36814069992d"
+        },
+        "require": {
+            "adbario/php-dot-notation": "*",
+            "smarterdigital/wpd-toolset/package": "dev-master"
+        },
+        "time": "2018-04-26T13:29:56+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\Utilities\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Collection Utilities Helpers"
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/utilities/options",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-options-utilities.git",
+            "reference": "a46c5de95708d18a25dd40527ed0e3dd0aac65de"
+        },
+        "require": {
+            "smarterdigital/wpd-toolset/package": "dev-master"
+        },
+        "time": "2018-04-26T13:30:00+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\Utilities\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "Options Utilities"
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/traits/plugin-property-getters",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-trait-plugin-property-getters.git",
+            "reference": "2a8e4a6ca33fc4195e03d73289cd775e0cd76d26"
+        },
+        "time": "2018-05-08T19:49:43+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\Traits\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "WPD Plugins Property Getters"
+    },
+    {
+        "name": "smarterdigital/wpd-toolset/features/white-label",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:smarterdigital/wpd-toolset-white-label.git",
+            "reference": "61cab7166500d091448746b6c74b50cf7be34c9a"
+        },
+        "require": {
+            "smarterdigital/wpd-toolset/traits/plugin-property-getters": "dev-master"
+        },
+        "time": "2018-06-06T18:28:42+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "WPD\\Toolset\\Features\\": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Doug Belchamber",
+                "email": "doug@smarter.uk.com"
+            },
+            {
+                "name": "Prajwal Shrestha",
+                "email": "prajwalstha123@gmail.com"
+            }
+        ],
+        "description": "White Label WPD Plugins"
+    }
+]

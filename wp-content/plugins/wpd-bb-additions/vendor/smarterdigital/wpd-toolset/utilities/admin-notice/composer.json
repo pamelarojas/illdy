@@ -1,0 +1,22 @@
+{
+  "name": "smarterdigital/wpd-toolset/utilities/admin-notice",
+  "description": "Admin Notices",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Doug Belchamber",
+      "email": "doug@smarter.uk.com"
+    },
+    {
+      "name": "Prajwal Shrestha",
+      "email": "prajwalstha123@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [ "wpd-toolset-admin-notice-utilities.php" ],
+    "psr-4": {
+      "WPD\\Toolset\\Utilities\\": "src"
+    }
+  }
+}

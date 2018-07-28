@@ -1,0 +1,25 @@
+{
+  "name": "smarterdigital/wpd-toolset/utilities/color",
+  "description": "Color Utilities",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Doug Belchamber",
+      "email": "doug@smarter.uk.com"
+    },
+    {
+      "name": "Prajwal Shrestha",
+      "email": "prajwalstha123@gmail.com"
+    }
+  ],
+  "require": {
+    "mexitek/phpcolors": "dev-master",
+    "smarterdigital/wpd-toolset/package": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "WPD\\Toolset\\Utilities\\": "src"
+    }
+  }
+}

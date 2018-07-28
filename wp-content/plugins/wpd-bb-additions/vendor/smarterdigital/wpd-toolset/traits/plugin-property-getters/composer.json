@@ -1,0 +1,22 @@
+{
+  "name": "smarterdigital/wpd-toolset/traits/plugin-property-getters",
+  "description": "WPD Plugins Property Getters",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Doug Belchamber",
+      "email": "doug@smarter.uk.com"
+    },
+    {
+      "name": "Prajwal Shrestha",
+      "email": "prajwalstha123@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev-master",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "WPD\\Toolset\\Traits\\": "src"
+    }
+  }
+}
